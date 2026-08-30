@@ -29,7 +29,7 @@
 }
 /* Two-card current-work layout: compact cards with centered content */
 .current-work .work-card {
-  min-height: 320px;
+  min-height: 400px;
 }
 
 .current-work .card-index {
@@ -49,7 +49,7 @@
 
 @media (width <= 700px) {
   .current-work .work-card {
-    min-height: 300px;
+    min-height: 400px;
   }
 
   .current-work .card-index {
