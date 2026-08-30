@@ -57,3 +57,14 @@
     left: 30px;
   }
 }
+.current-work .section-heading > div {
+  max-width: 800px;
+}
+
+.current-work-intro {
+  max-width: 620px;
+  margin-top: 24px !important;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.7;
+}
