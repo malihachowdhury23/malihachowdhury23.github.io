@@ -27,13 +27,33 @@
     min-height: 410px;
   }
 }
-/* Keep the two Currently Working On cards balanced */
-.current-work .work-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+/* Two-card current-work layout: compact cards with centered content */
+.current-work .work-card {
+  min-height: 320px;
+}
+
+.current-work .card-index {
+  position: absolute;
+  top: 31px;
+  left: 31px;
+  margin: 0;
+}
+
+.current-work .work-card h3 {
+  margin-top: auto;
+}
+
+.current-work .work-card .card-tags {
+  margin-bottom: auto;
 }
 
 @media (width <= 700px) {
-  .current-work .work-grid {
-    grid-template-columns: 1fr;
+  .current-work .work-card {
+    min-height: 300px;
+  }
+
+  .current-work .card-index {
+    top: 30px;
+    left: 30px;
   }
 }
